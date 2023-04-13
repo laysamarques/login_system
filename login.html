@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <nav class="main-nav">
+     <div class="container">
+            <spam>Login System</spam>
+        <div class="links">
+            <a href="login.html">Login</a>
+        </div>
+     </div>
+    </nav>
+
+    <section class="section-login">
+        <div class="container">
+        <form id="form-login">
+            <div class="form-group">
+                <label>E-mail</label>
+                <input id="inputEmail" type="email" name="email" />
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input id="inputPassword" type="password" name="password" />
+            </div>
+            <div class="button-group">
+               <input class="btn btn-dark" type="submit" value="Entrar" />
+            </div>
+        </form>
+            <div id="form-login-alert-error" class="alert alert-error hide">
+                Email ou senha incorretos, por favor verifique e tente novamente.
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" ></script>
+    <script src="js/usersList.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

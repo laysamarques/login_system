@@ -1,0 +1,25 @@
+var listaDeFuncionarios = [{
+    email: "emailum@mail.com",
+    password: "123",
+    name: "Joãozinho",
+    phone_number: "(55) 99939-3993",
+    role: "Desenvolvedor",
+    endereço:"Rua primeiro de maio, centro 231",
+    data_nascimento:  "14/07/1989",
+    },{
+    email: "emaildois@mail.com",
+    password: "123",
+    name: "Mariazinha",
+    phone_number: "(53) 92329-3993",
+    role: "Gerente",
+    endereço:"W3 Leste",
+    data_nascimento:  "17/02/1989",
+    },{
+    email: "emailtres@mail.com",
+    password: "123",
+    name: "Terezinha",
+    phone_number: "(23) 88379-3993",
+    role: "Estagiário",
+    endereço:"Rua Pedro Bandeira, 15",
+    data_nascimento:  "06/12/1997",
+    },];
